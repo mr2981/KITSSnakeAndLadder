@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.mr2981.SnakeAndLadderGame.entity.Dice;
@@ -19,7 +19,7 @@ public class GameBoardTest {
 	private Player player;
 	private Dice dice;
 
-	@BeforeAll
+	@BeforeEach
 	public void setup() {
 		gameBoard = GameBoard.newInstance();
 		player = new Player("Player1");
