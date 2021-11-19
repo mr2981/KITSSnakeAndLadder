@@ -3,7 +3,7 @@ package com.mr2981.SnakeAndLadderGame.entity;
 import java.util.*;
 
 import org.springframework.stereotype.Component;
-@Component
+
 public class GameBoard {
 	 private int totalPlayers;
 	    private List<Player> players;
