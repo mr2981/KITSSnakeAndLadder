@@ -1,7 +1,7 @@
 package com.mr2981.SnakeAndLadderGame;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.mr2981.SnakeAndLadderGame.entity.Ladder;
@@ -10,7 +10,7 @@ import com.mr2981.SnakeAndLadderGame.entity.Tile;
 public class LadderTest {
 	 private Ladder ladder;
 
-	    @BeforeAll
+	    @BeforeEach
 	    public void setup() {
 	        ladder = new Ladder(23);
 	    }
